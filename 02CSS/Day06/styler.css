@@ -1,0 +1,96 @@
+/* -----CSS Selectors------- */
+
+/* Tag Element selector */
+/* h1{
+    background-color: pink;
+}
+
+ul{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: antiquewhite;
+} */
+/* ----------------------------- */
+
+/* id base selector # base selector */
+
+/* #first{
+    background-color: plum;
+}
+
+#second{
+    background-color: greenyellow;
+} */
+/* -------------------------------- */
+
+/* class base selection */
+
+/* .third{
+    background-color: skyblue;
+}
+
+.fourth{
+    background-color: burlywood;
+} */
+/* ------------------------- */
+
+/* group base selection */
+
+/* h1, .fourth, #first{
+    background-color: yellow;
+} */
+/* ----------------------------- */
+
+/* -----CSS Colors------ */
+
+h1{
+    background-color: rgb(255, 192, 203);
+}
+
+/* ------CSS Fonts------- */
+
+h1{
+    font-size: 80px;
+}
+
+/* --em Unit-- */
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    font-size: 2em;
+}
+
+/* --rem Unit-- */
+
+html{
+    font-size: 40px;
+}
+
+/* h2{
+    font-size: 3rem;
+} */
+
+/* --vw and vh Unit-- */
+
+/* h2{
+    font-size: 10vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+} */
+
+/* homework: font shorthand property */
+
+h2{
+    font: italic 900 10vw Gill Sans, serif;
+}
+
+/* li{
+    font-size: 5vh;
+    font-size: 50%;
+} */
