@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text-1, .text-2{
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.flex-container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    background-color: bisque;
+    font-size: 40px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.box-container{
+    height: 100%;
+    width: 100px;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box2{
+    flex-grow: 1;
+}
+
+.item-box1{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.item1{
+    flex-grow: 1;
+}
+
+.item2{
+    flex-grow: 1;
+}
+
+/* --------- */
+
+.item-box2{
+    /* background-color: green; */
+    display: flex;
+    height: 100px;
+}
+
+.rowbox1{
+    gap: 10px;
+}
+
+.rowbox2{
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.item-row{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3{
+    flex-grow: 3;
+}
+
+.item4{
+    flex-grow: 4;
+}
+
+/* --------- */
+
+.item-column{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 2;
+}
+
+.columnbox2{
+    background-color: orange;
+    flex-grow: 1;
+}
+
+/* ----------- */
+
+.boxrow{
+    /* background-color: plum; */
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.rows1{
+    flex-grow: 3;
+}
+
+.rows2{
+    flex-grow: 2;
+}
+
+/* ------------- */
+
+.boxfifth{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item5{
+    flex-grow: 1;
+}
+.item6{
+    flex-grow: 2;
+}
+
+/* ---------- */
+
+.boxsixth{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item8{
+    flex-grow: 3;
+}
+.item9{
+    flex-grow: 2;
+}
+
+/* --------end flexbox design--------- */
+
+.grid-container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;  
+}
+
+.box{
+    background-color: rgb(144, 144, 230);
+}
+
+.first{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.second{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.third{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.fourth{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.fifth{
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+
+.sixth{
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+
+.seventh{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.eighth{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.ninth{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
