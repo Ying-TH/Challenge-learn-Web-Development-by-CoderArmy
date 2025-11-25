@@ -4,6 +4,16 @@ body{
     background-color: black;
 }
 
+.text{
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .sun{
     height: 100px;
     width: 100px;
@@ -162,16 +172,16 @@ p{
 
 @keyframes moving5 {
     from{
-        transform: rotate(0deg) translateX(160px) rotate(0deg);
+        transform: rotate(0deg) translateX(175px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(160px) rotate(-360deg);
+        transform: rotate(360deg) translateX(175px) rotate(-360deg);
     }
 }
 
 .jupiter-outline{
-    height: 330px;
-    width: 330px;
+    height: 360px;
+    width: 360px;
 }
 
 .saturn{
@@ -189,16 +199,16 @@ p{
 
 @keyframes moving6 {
     from{
-        transform: rotate(0deg) translateX(200px) rotate(0deg);
+        transform: rotate(0deg) translateX(220px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+        transform: rotate(360deg) translateX(220px) rotate(-360deg);
     }
 }
 
 .saturn-outline{
-    height: 400px;
-    width: 400px;
+    height: 430px;
+    width: 430px;
 }
 
 .uranus{
@@ -216,16 +226,16 @@ p{
 
 @keyframes moving7 {
     from{
-        transform: rotate(0deg) translateX(240px) rotate(0deg);
+        transform: rotate(0deg) translateX(290px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(240px) rotate(-360deg);
+        transform: rotate(360deg) translateX(290px) rotate(-360deg);
     }
 }
 
 .uranus-outline{
-    height: 480px;
-    width: 480px;
+    height: 570px;
+    width: 570px;
 }
 
 .neptune{
@@ -243,14 +253,14 @@ p{
 
 @keyframes moving8 {
     from{
-        transform: rotate(0deg) translateX(270px) rotate(0deg);
+        transform: rotate(0deg) translateX(350px) rotate(0deg);
     }
     to{
-        transform: rotate(360deg) translateX(270px) rotate(-360deg);
+        transform: rotate(360deg) translateX(350px) rotate(-360deg);
     }
 }
 
 .neptune-outline{
-    height: 550px;
-    width: 550px;
+    height: 700px;
+    width: 700px;
 }
